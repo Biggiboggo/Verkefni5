@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+}
+p {
+  font-size: 1em;
+  line-height: 1.25em;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+img {
+  width: 9.375em;
+  padding-right: 1.25em;
+}
+ul {
+  list-style-type: none;
+}
+.card-inside-ul > li {
+  margin-right: 0.5em;
+  font-weight: bold;
+  align-content: flex-end;
+}
+.card:nth-of-type(4) .card-inside-ul > li {
+  margin-top: 10.5em;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  max-width: 29.375em;
+  max-height: 20em;
+  margin-bottom: 0.625em;
+  overflow: auto;
+  word-break: break-word;
+  padding: 0em 0.5em 0.5em 0.5em;
+}
+.card-two {
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  max-width: 29.375em;
+  max-height: 20em;
+  margin-bottom: 0.625em;
+  order: -1;
+  padding: 0em 0.5em 0.5em 0.5em;
+}
+.card-inside {
+  display: flex;
+}
+.card-inside-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
